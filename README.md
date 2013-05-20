@@ -7,8 +7,8 @@ application framework.  It's intended to be used by experienced ColdFusion/CFML
 developers and those developers familiar with Model-Glue.
 
 There are technically two (2) MG applications included in this plugin:
-	* **admin**: an area that can be used by Content Managers to administer the plugin.
-	* **app1**: a display object that will be available for Content Managers via the 'Layout & Objects' tab by selecting 'Plugins' from the Content Objects select menu, then choosing the plugin (e.g, MuraModelGlue) and then assigning the display object to a content display region.
+* **admin**: an area that can be used by Content Managers to administer the plugin.
+* **app1**: a display object that will be available for Content Managers via the 'Layout & Objects' tab by selecting 'Plugins' from the Content Objects select menu, then choosing the plugin (e.g, MuraModelGlue) and then assigning the display object to a content display region.
 
 In addition, you could place **app1** directly into a layout template with the following code:
 `#$.MuraModelGlue.doAction(action='page.index', appKey='app1')#`
@@ -17,8 +17,8 @@ OR, if you want to place it directly in the CKEditor window:
 `[mura]$.MuraModelGlue.doAction(action='page.index', appKey='app1')[/mura]`
 
 ### Minimum Requirements
-	* Mura CMS v.6.0+
-	* Adobe ColdFusion 9.0.1+ or Railo 3.3+
+* Mura CMS v.6.0+
+* Adobe ColdFusion 9.0.1+ or Railo 3.3+
 
 ## Important Notes
 This plugin has NOT been fully tested. It's just an example of one way to get a 
