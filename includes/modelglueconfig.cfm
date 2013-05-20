@@ -9,6 +9,7 @@ http://www.apache.org/licenses/LICENSE-2.0
 
 	NOTES:
 		The most important variable to note is variables.framework.package.
+		'package' should be set to whatever you want the directory name to be (e.g., MuraModelGlue)
 
 */
 	// Model-Glue Configuration
@@ -17,7 +18,6 @@ http://www.apache.org/licenses/LICENSE-2.0
 		, packageVersion = '0.0.1'
 	};
 
-	//variables.framework.action = variables.framework.package & 'action';
 	variables.framework.applicationKey = variables.framework.package;
 	variables.framework.action = variables.framework.package & 'action';
 </cfscript>

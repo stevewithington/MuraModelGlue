@@ -23,7 +23,7 @@ The version number in parentheses is in the format versionNumber.subversion.revi
 ---><cfsilent>
 <cfparam name="ModelGlue_APP_KEY" default="_modelglue" />
 <cfparam name="ModelGlue_CONFIG_PATH" default="" />
-<cfparam name="ModelGlue_LOCAL_COLDSPRING_PATH" default="/MuraModelGlue/config/ColdSpring.xml" />
+<cfparam name="ModelGlue_LOCAL_COLDSPRING_PATH" default="./config/ColdSpring.xml" />
 <cfparam name="ModelGlue_CORE_COLDSPRING_PATH" default="/ModelGlue/gesture/configuration/ModelGlueConfiguration.xml" />
 <cfparam name="ModelGlue_PARENT_BEAN_FACTORY" default="" />
 <cfparam name="ModelGlue_PARENT_BEAN_FACTORY" default="" />

@@ -18,11 +18,11 @@ component persistent="false" accessors="true" output="false" extends="mura.plugi
 
 	// ========================== Display Methods ==============================
 	
-	// This is where you put any display objects you wish to make available to Content Managers.
-	// These display objects will also have to be mapped in the config.xml.cfm file for Mura to know they exist.
+	// This is where you put any display objects you wish to make available to Content Managers
+	// These display objects will also have to be mapped in the config.xml.cfm file for Mura to know they exist and should be exposed
 
-	public any function dspMuraModelGlue($) {
-		return getApplication().doAction('page.index');
+	public any function dspMuraModelGlue() {
+		return getApplication().doAction(action='page.index', appKey='app1');
 	}
 
 	// ========================== Helper Methods ==============================

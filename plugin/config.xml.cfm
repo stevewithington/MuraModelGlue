@@ -22,14 +22,24 @@ for the new information to be picked up.
 	<category>Application</category>
 	<ormcfclocation />
 	<customtagpaths />
+	<settings />
+
 	<mappings>
 		<mapping name="ModelGlue" directory="includes/ModelGlue" />
 	</mappings>
-	<settings />
+
 	<eventHandlers>
 		<eventHandler event="onApplicationLoad" component="includes.eventHandler" persist="false" />
 	</eventHandlers>
+
 	<displayobjects location="global">
-		<displayobject name="MuraModelGlue" displaymethod="dspMuraModelGlue" component="includes.displayObjects" persist="false" />
+
+		<displayobject 
+			name="MuraModelGlue"  
+			component="includes.displayObjects" 
+			displaymethod="dspMuraModelGlue"
+			persist="false" />
+
 	</displayobjects>
+
 </plugin></cfoutput>

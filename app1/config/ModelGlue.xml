@@ -2,7 +2,7 @@
 <modelglue>
 
 <controllers>
-	<controller id="Controller" type="MuraModelGlue.controller.Controller">
+	<controller id="Controller" type="MuraModelGlue.app1.controller.Controller">
 	<!-- 
 	<message-listener message="message" function="controllerFunction" />
 	-->

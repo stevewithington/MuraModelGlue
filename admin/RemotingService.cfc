@@ -1,9 +1,10 @@
 <cfcomponent output="false" extends="ModelGlue.gesture.remoting.AbstractRemotingService" hint="Exposes your Model-Glue application to remote clients.">
+	<cfinclude template="../includes/modelglueconfig.cfm" />
 	<cfsetting showdebugoutput="false">
 <!---
 If you use a file other than index.cfm as your application's template, change this line.
 --->
-<cfset template = "/modelglueapplicationtemplate/index.cfm" />
+<cfset template = "/#variables.framework.package#/app1/index.cfm" />
 
 	<!---
 	Create a method in this CFC with the same footprint as that of the base class method.
